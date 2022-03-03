@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rubcub Page</title>
+	<link rel="stylesheet" type="text/css" href="assets/style/style.css">
+</head>
+<body>
+	<!-- Bagian header -->
+	<header>
+		<nav>
+			<input type="checkbox" id="nav-check">
+			<div class="nav-header">
+				<div class="nav-title">
+					<img src="assets/image/logo.png" alt="RubCubLogo" />
+				</div>
+			</div>
+			<div class="nav-btn">
+				<label for="nav-check">
+					<span></span>
+					<span></span>
+					<span></span>
+				</label>
+			</div>
+			<div class="nav-links">
+				<a href="#about">About</a>
+				<a href="#method">Method</a>
+				<a href="#popularBrand">Popular Brand</a>
+				<a href="#speedcubers">Speedcubers</a>
+				<a href="#me">Me</a>
+			</div>
+		</nav>
+		<!--	<nav>
+		<img src="assets/image/logo.png" alt="RubCubLogo">	
+
+		<div class="nav-btn">
+			<label for="nav-check">
+				<span></span>
+				<span></span>
+				<span></span>
+				</label>
+		</div>
+
+		<ul>
+			<li><a href="#about">About</a></li>
+			<li><a href="#formula">Formula</a></li>
+			<li><a href="#popularBrand">Popular Brand</a></li>
+			<li><a href="#speedcubing">Speedcubing</a></li>
+			<li><a href="#author">Author</a></li>
+		</ul>
+		</nav> -->
+	</header>
+	
+	<div class="wave">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#050a30" fill-opacity="1" d="M0,128L34.3,149.3C68.6,171,137,213,206,197.3C274.3,181,343,107,411,85.3C480,64,549,96,617,138.7C685.7,181,754,235,823,256C891.4,277,960,267,1029,240C1097.1,213,1166,171,1234,176C1302.9,181,1371,235,1406,261.3L1440,288L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>	
+	</div>
+	<!-- Konten ada disini -->
+	<main class="container">
+			<!-- About -->
+			<article id="about" class="row">
+        <div class="col-7">
+				<img src="assets/image/RubCub.png" class="content-image card" alt="RubCub">
+				</div>
+				<div class="col-9">
+					<h1>About</h1>
+					<p>Anda kagum saat teman anda lihai dalam memainkan rubik dengan sangat cepat? di benak anda mungkin berkata "how it possible?". Setelah anda berpikir sejenak, mungkin anda berencana untuk membelinya, mungkin anda akan tertarik untuk mempelajarinya, dan mungkin juga anda akan riset lebih dulu, dan di sini lah, anda berada di tempat yang tepat. Rubcub merupakan wadah untuk mencari informasi seputar rubik 3x3 bagi pemula. Halaman ini didesain seminimal mungkin. Di halaman ini anda dapat mengenal rumus-rumus rubik, merk rubik terbaik, dan pemain rubik tercepat di dunia.</p>
+				</div>
+			</article>
+			<div class="row" id="content">
+				<div class="col-9">
+				<!-- Formula -->
+					<article id="method" class="card">
+						<h1>SPEEDSOLVING METHOD</h1>
+						<h2>*CFOP</h2>
+						<iframe src="https://www.youtube.com/embed/MS5jByTX_pk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<p>Cross, First 2 Layers, Orientation, Permutation (CFOP) adalah metode yang paling populer untuk mempercepat penyelesaian Rubik's Cube. Ini adalah metode yang digunakan oleh semua pemegang rekor dunia 3x3 dalam satu dekade terakhir. Metode ini sangat cocok untuk anda jika anda seorang pemula. Video di atas akan menjelasakan bagaimana cara untuk menyelesaikannya.</p>
+
+						<h2>*Roux</h2>
+						<iframe src="https://www.youtube.com/embed/ImBWkk-7teA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<p>Roux adalah metode pemecahan cepat kubus Rubik yang ditemukan oleh Gilles Roux. Roux didasarkan pada metode Blockbuilding dan Corners First. Ini terkenal karena jumlah gerakannya yang rendah, kurangnya rotasi, penggunaan gerakan M yang banyak pada langkah terakhir, dan kemampuan beradaptasi dengan One-Handed Solving.</p>
+						<p>Ada beberapa step untuk menyelesaikan :</p>
+						<ol>
+							<li>Bangun Blok 1x2x3 di mana saja.</li>
+							<li>Bangun blok 1x2x3 kedua yang berlawanan dengan blok 1x2x3 pertama, tanpa mengganggu blok 1x2x3 pertama. Setelah langkah ini, seharusnya ada dua blok 1x2x3: satu di sisi kiri bawah, dan satu sisi kanan bawah, membiarkan irisan U dan irisan M bebas bergerak.</li>
+							<p>Langkah 1 dan 2 disebut sebagai Dua Blok Pertama</p>
+							<li>Secara bersamaan mengarahkan dan mengubah empat sudut yang tersisa pada lapisan atas (irisan-U). Jika dilakukan dalam satu langkah, ada 42 algoritma. Kumpulan algoritma ini biasanya disebut sebagai CMLL. Dimungkinkan juga untuk menggunakan COLL dan beberapa set algoritma CLL lainnya. Namun, set ini tidak seefisien CMLL karena mereka mempertahankan bagian yang tidak dimiliki CMLL. Empat sudut yang tersisa juga dapat diselesaikan dalam dua langkah, yang membutuhkan lebih sedikit algoritma.</li>
+							<li>
+								<ol type="a">
+									<li>Arahkan 6 tepi yang tersisa hanya dengan menggunakan gerakan M dan U (UF, UB, UL, UR, DF, DB perlu diorientasikan dengan benar).</li>
+									<li>Selesaikan tepi UL dan UR, dengan mempertahankan orientasi tepi. Setelah langkah ini, lapisan sisi kiri dan kanan harus selesai.</li>
+									<li>Selesaikan bagian tengah dan tepi dalam irisan M. Langkah ini terkadang juga disebut L4E atau L4EP. lihat Enam Tepi Terakhir.</li>
+								</ol>
+							</li>
+							<p>Langkah 3 dan 4 disebut sebagai 10 Potongan Terakhir</p>
+						</ol>
+
+						<h2>*ZZ</h2>
+						<iframe src="https://www.youtube.com/embed/4Wrm2MGrRS8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<p>Metode ZZ adalah metode penyelesaian cepat 3x3 yang dibuat oleh Zbigniew Zborowski pada tahun 2006. Metode ini difokuskan baik pada jumlah gerakan rendah maupun kecepatan putaran tinggi; selama sebagian besar F2L, solver hanya perlu membuat L, U, dan R bergerak, yang berarti tangan solver tidak pernah meninggalkan sisi kiri dan kanan kubus, sehingga penyelesaian lebih cepat. Selain itu, edge sudah diorientasikan ketika solver mencapai lapisan terakhir, yang berarti solver memiliki lebih sedikit kasus untuk ditangani. Metode tersebut, termasuk EOLine dan EOCross, awalnya diusulkan pada tahun 2003 oleh Ryan Heise di Yahoo!. Namun, metode ini menjadi populer dan dikaitkan dengan Zbigniew Zborowski setelah ia secara mandiri menciptakan metode tersebut pada tahun 2006 dan mengembangkan situs web.</p>
+						<p>Ingin mempelajari metode tersebut? simak video diatas.</p>
+
+						<h2>*Petrus</h2>
+						<iframe width="790" height="444" src="https://www.youtube.com/embed/wZKq_0LggX8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<p>Metode Petrus, ditemukan oleh Lars Petrus, adalah metode pembuatan blok di mana F2L diselesaikan secara intuitif tanpa algoritma. Petrus pernah menjadi metode speedcubing paling populer kedua setelah Fridrich/CFOP; namun saat ini sering dianggap ketinggalan zaman karena popularitasnya terus menurun sejak munculnya "Tiga Besar" (CFOP, Roux dan ZZ).</p>
+						<p>Blockbuilding seperti Petrus kadang-kadang sebagian digunakan dalam pemecahan CFOP untuk membuat XCross.</p>
+						<p>Untuk lebih jelasnya anda dapat simak video diatas.</p>
+					</article>
+					<!-- Popular Brand -->
+					<article id="popularBrand" class="card">
+						<h1>Popular Brand</h1>
+						<h2>*Gan</h2>
+						<img src="assets/image/Gan.png" class="content-image" alt="gan cube 3x3">
+						<p>GAN adalah perusahaan desain dan manufaktur rubik dengan kecepatan eksklusif yang dinamai sesuai nama perancang dan pemilik Ganyuan Jiang. Merek GAN terkenal dengan inovasi yang konstan dan kubus kecepatan edisi GAN356 dianggap sebagai kubus kecepatan 3x3 premium yang tersedia di pasaran saat ini. Merek GAN mendapatkan banyak pengikut setelah speedcuber yang paling terkenal Feliks Zemdegs mengubah speedcube "utama" ke model GAN357 pada tahun 2015 dan kemudian menjadi duta utama merek tersebut. Beberapa rekor dunia telah dipecahkan dengan GAN Cube 3x3 Speed cubes.</p>
+						<h2>*Moyu</h2>
+						<img src="assets/image/MoyuCube.png" class="content-image" alt="moyu cube 3x3">
+						<p>MoYu adalah salah satu merek rubik terkemuka di Cina. Mereka berkomitmen untuk merancang dan membangun kubus kecepatan yang sangat baik untuk cuber di seluruh dunia. Fokus mereka adalah merancang dan membangun rubik khusus untuk speedcubing. Mereka terus meningkatkan produk mereka dan merilis yang baru. Salah satu seri yang terkenal adalah Moyu RS3M.</p>
+						<h2>*Qiyi</h2>
+						<img src="assets/image/Qiyi.png" class="content-image" alt="qiyi cube 3x3">
+						<p>QiYi adalah perusahaan manufaktur dan desain kubus berkecepatan tinggi dan teka-teki berliku yang inovatif, yang menjadi terkenal pada tahun 2018 dengan membuat rubik berkualitas tinggi dengan harga terjangkau. Perusahaan terus berkembang dan memperluas jangkauan produk mereka. Mereka memiliki banyak kolaborator desain produk yang sukses, yang paling terkenal adalah Mats Valk yang berkolaborasi dengan QiYi untuk menciptakan sub-merek VALK yang sangat populer. 
+						<p>Mungkin Qiyi MP 3x3 adalah seri yang wajib anda coba, karena seri ini mirip seperti Moyu RS3M.</p>
+						</p>
+					</article>
+					<!-- Speed Cube -->
+					<article id="speedcubers" class="card">
+						<h1>Fastest Speedcubers</h1>
+						<h2>*Feliks Zemdegs</h2>
+						<img src="assets/image/Feliks_Zemdegs.jpg" class="content-image" alt="2nd seedcubing">
+						<p>Nama keluarganya berasal dari Latvia, sedangkan kakek dari pihak ibu berasal dari Lithuania. Zemdegs membeli rubik pertamanya pada April 2008 terinspirasi oleh video speedcubing dan tutorial di YouTube. Catatan waktu non-resmi yang pertama kali ia rekam adalah sebuah video dengan rata-rata waktu 19.73 detik pada 14 Juni 2008. Dia saat ini menggunakan metode CFOP untuk menyelesaikan kubus 3x3x3, metode Yau untuk menyelesaikan kubus 4x4x4, dan metode CLL untuk menyelesaikan kubus 2x2x2.</p>
+						<p>Zemdegs menjuarai kompetisi pertamanya di New Zealand's Championships (Juli 2009) dengan waktu rata-rata 13.74 detik di babak final. Dia juga memenangkan cabang 2x2, 4x4, 5x5, 3x3 dengan mata tertutup, dan 3x3 dengan satu tangan.</p>
+						<p>Pada kompetisi berikutnya, yakni Melbourne Summer Open (Januari 2010), Zemdegs memecahkan rekor dunia pertamanya untuk cabang 3x3x3 rata-rata dan 4x4x4 rata-rata, dengan waktu 9.21 detik dan 42.01 detik masing-masing.</p>
+						<p>Ia memenangkan cabang 3x3 di Kejuaraan Kubus Rubik Dunia di Las Vegas pada Juli 2013 dengan rata-rata 8.18 detik dan juga menjadi yang pertama dalam cabang 4x4, dan 3x3 satu tangan. Selain itu, ia memenangkan cabang 3x3, 4x4, 5x5, dan 2x2 di Kejuaraan Dunia Kubus Rubik yang berlangsung di Sao Paulo pada Juli 2015. Dia juga berhasil memperebutkan tempat kedua di cabang 6x6, 7x7, dan Megaminx.</p>
+						<h2>*Tymon Kolasiński</h2>
+						<img src="assets/image/Tymon_Kolasiński.jpeg" class="content-image"  alt="1st speedcubing">
+						<p>Tymon terkenal karena memecahkan rata-rata rekor dunia Pyraminx Drew Brads pada 10 Desember 2017 setelah hanya satu setengah tahun aktivitas di cubing dan saat ini pemegang rekor dunia untuk rata-rata 3x3 tercepat 5,09 per 19 Desember 2021. Pada 2019, ia menjadi juara dunia Pyraminx dengan rata-rata 2,40 di final WCA World Championship 2019.</p>
+					</article>
+				</div>
+				<!-- About Me -->
+				<aside class="col-3" id="me">
+					<article class="profile card">
+						<header>
+							<figure>
+								<img src="assets/image/avatar.png">
+								<h3>Ragil Murdiantoro Aji</h3>
+							</figure>
+						</header>
+					</article>
+				</aside>
+
+		</div>
+	</main>
+	<!-- Footer -->
+	<footer>
+		<p>Learn Rubik's Cube by RubCub &#169; 2022, Ragil Murdiantoro Aji</p>
+	</footer>
+	<script src="assets/js/index.js"></script>
+</body>
+</html>
